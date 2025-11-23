@@ -39,38 +39,6 @@ Ansible: Server configuration & automation (optional Jenkins role)
 
 Python/Flask: Sample application
 
-CloudDevOps-project-/
-│
-├── Dockerfile
-├── app.py
-├── requirements.txt
-│
-├── k8s/
-│   ├── namespace.yaml
-│   ├── deployment.yaml
-│   └── service.yaml
-│
-├── Terraform/
-│   ├── main.tf
-│   ├── network/
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   └── outputs.tf
-│   └── eks/
-│       ├── c1-provider.tf
-│       ├── c2-variables.tf
-│       ├── c3-eks-cluster.tf
-│       └── c4-outputs.tf
-│
-├── ansible/
-│   ├── playbook.yaml
-│   ├── inventory/aws_ec2.yaml
-│   └── roles/
-│       ├── common/
-│       ├── docker/
-│       └── jenkins/
-│
-└── .github/workflows/deploy.yaml   → GitHub Actions CI/CD
 -------------
 🧱 Infrastructure (Terraform)
 ✔ Creates:
