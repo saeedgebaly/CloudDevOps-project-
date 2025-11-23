@@ -1,0 +1,7 @@
+---
+- name: Configure EC2 instances
+  hosts: tag_Name_myserver   # Example: depends on your EC2 tag
+  become: true
+  roles:
+    - common
+    - docker
