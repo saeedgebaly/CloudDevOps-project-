@@ -155,6 +155,8 @@ This project implements a full real-world DevOps workflow on AWS:
 ✔ Complete cloud architecture
 🙌 Author
 
+trigger deployment
+
 Saeed Gebaly
 Cloud DevOps Engineer
 NTI Cloud & AWS Track
